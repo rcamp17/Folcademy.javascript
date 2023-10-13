@@ -1,0 +1,46 @@
+
+
+.cardPrc {
+    background-color: #bbc8c5;
+    display: flex;
+    border: none;
+}
+
+.card-img-top:hover {
+    transform: scale(1.1); 
+    transition: transform 0.3s ease;
+}
+
+.card-body {
+    display: block;
+  }
+  
+  
+.btnEdit, .btnDelete {
+    width: 60%;
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.btnDelete {
+    border: none;
+    color: #557D73;
+    font-weight: 500;
+}
+
+.btnEdit {
+    border: none;
+    background-color: #557D73;
+    color: white;
+}
+
+
+.card-txt{
+    align-self: center;
+}
+.card-h4 {
+    align-self: center;
+    text-transform: capitalize;
+}
